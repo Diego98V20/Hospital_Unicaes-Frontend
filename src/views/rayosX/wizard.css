@@ -1,0 +1,53 @@
+.wizard-step {
+  max-width: 500px;
+  margin: auto;
+  padding: 24px;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.wizard-step h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a148c;
+}
+
+.wizard-step input,
+.wizard-step select {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.wizard-step button {
+  margin: 10px 5px 0 0;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.wizard-step .btn-primary {
+  background-color: #4a148c;
+  color: white;
+}
+
+.wizard-step .btn-secondary {
+  background-color: #ccc;
+  color: #333;
+}
+
+.wizard-step .btn-success {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.wizard-step p.error {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 12px;
+}

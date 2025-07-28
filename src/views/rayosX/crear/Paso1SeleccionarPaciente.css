@@ -1,0 +1,59 @@
+.paso1-container {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.tabla-pacientes {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.tabla-pacientes th, .tabla-pacientes td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.seleccionado {
+  background-color: #e6f7ff;
+  font-weight: bold;
+}
+
+.btn-seleccionar {
+  background-color: #17a2b8;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-seleccionar:hover {
+  background-color: #138496;
+}
+
+.paso1-botones {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.btn-siguiente {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-siguiente:hover {
+  background-color: #218838;
+}
+
+.paso1-error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}

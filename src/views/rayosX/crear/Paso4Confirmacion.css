@@ -1,0 +1,48 @@
+.confirmacion-contenedor {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.datos-resumen p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.mensaje-final {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mensaje-final.exito {
+  color: green;
+}
+
+.mensaje-final.error {
+  color: red;
+}
+
+.wizard-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}

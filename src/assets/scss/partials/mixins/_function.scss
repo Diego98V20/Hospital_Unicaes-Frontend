@@ -1,0 +1,28 @@
+@use "sass:color";
+
+@function color-yiq($color) {
+  // $r: red($color);
+  $r: color.channel($color, "red", $space: rgb);
+
+  // $g: green($color);
+  $g: color.channel($color, "green", $space: rgb);
+
+  // $b: blue($color);
+  $b: color.channel($color, "blue", $space: rgb);
+
+  $yiq: (($r * 299) + ($g * 587) + ($b * 114)) * 0.001;
+  @if ($yiq >= $yiq-contrasted-threshold) {
+    @return $yiq-dark-color;
+  } @else {
+    @return $yiq-light-color;
+  }
+}
+@function theme-color($key: 'primary') {
+  @return map-get($theme-colors, $key);
+}
+@function theme-color-level($color-name: 'primary', $level: 0) {
+  $color: theme-color($color-name);
+  $color-base: if($level > 0, $yiq-dark-color, $yiq-light-color);
+  $level: abs($level);
+  @return mix($color-base, $color, $level * $theme-color-interval);
+}

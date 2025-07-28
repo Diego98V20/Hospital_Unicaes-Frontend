@@ -1,0 +1,76 @@
+/* solis.css */
+
+.rayosx-container {
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.rayosx-title {
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.rayosx-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.rayosx-table th,
+.rayosx-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.rayosx-table th {
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+}
+
+.btn {
+  margin: 2px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-ver {
+  background-color: #4caf50;
+}
+
+.btn-editar {
+  background-color: #2196f3;
+}
+
+.btn-eliminar {
+  background-color: #f44336;
+}
+
+.modal-editar {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .rayosx-container {
+    padding: 20px;
+  }
+
+  .rayosx-table th, .rayosx-table td {
+    font-size: 12px;
+  }
+}

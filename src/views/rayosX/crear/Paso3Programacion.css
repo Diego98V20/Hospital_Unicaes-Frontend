@@ -1,0 +1,67 @@
+.paso3-container {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.campo-formulario {
+  margin-bottom: 1rem;
+}
+
+.campo-formulario label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.campo-formulario input,
+.campo-formulario select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.paso3-botones {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-atras {
+  background-color: #6c757d;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-siguiente {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-atras:hover {
+  background-color: #5a6268;
+}
+
+.btn-siguiente:hover {
+  background-color: #0056b3;
+}
+
+.mensaje-error {
+  color: red;
+  font-weight: bold;
+}
+
+.readonly-input {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  color: #555;
+  cursor: not-allowed;
+}
