@@ -570,7 +570,7 @@ const GestionTipoExamenesPlantillas = () => {
             grow: 3, // Permite que esta columna sea la más ancha
             wrap: true, // Permite que el texto se envuelva
             cell: row => (
-                <span className="text-muted" style={{ fontSize: '0.9rem' }}>
+                <span className="text-muted pt-3 pb-3" style={{ fontSize: '0.9rem' }}>
                     {row.descripcion || 'Sin descripción'}
                 </span>
             )
@@ -1826,3 +1826,4 @@ const GestionTipoExamenesPlantillas = () => {
 };
 
 export default GestionTipoExamenesPlantillas;
+
