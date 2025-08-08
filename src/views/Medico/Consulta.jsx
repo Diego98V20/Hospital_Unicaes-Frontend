@@ -239,8 +239,10 @@ const Consulta = () => {
       rayosX: listaRayosX.map((r) => r.id),
       medicamentos: listaMedicamentos.map((m) => ({
         id_medicamento: m.id,
+        cantidad: m.cantidad,
         dosis: m.dosis,
-        frecuencia: m.frecuencia
+        frecuencia: m.frecuencia,
+        duracion: m.duracion
         }))
     };
       const response = await detalleConsultaService.createDetalleConsulta(payload);
