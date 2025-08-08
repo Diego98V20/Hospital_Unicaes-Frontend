@@ -99,7 +99,8 @@ const SeguimientoConsulta = () => {
                     <th>Cantidad</th>
                     <th>Dosis</th>
                     <th>Frecuencia</th>
-                     <th>Duración</th>
+                    <th>Duración</th>
+                    <th>Estado</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -110,6 +111,7 @@ const SeguimientoConsulta = () => {
                       <td>{med.dosis}</td>
                       <td>{med.frecuencia}</td>
                       <td>{med.duracion}</td>
+                      <td>{med.estado}</td>
                     </tr>
                   ))}
                 </tbody>
